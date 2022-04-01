@@ -1,5 +1,4 @@
 let apples: number = 5;
-apples = "red"
 let speed: string = "fast";
 let hasName: boolean = true;
 
@@ -35,9 +34,9 @@ const logNumber: (i: number) => void = (i: number) => {
 
 // 1. Function that returns the "any" type
 const json = {"x": 10, "y": 20}
-const coordinates: {x: number, y: number} = JSON.parse(json)
+// const coordinates: {x: number, y: number} = JSON.parse(json)
 
-console.log(coordinates)
+// console.log(coordinates)
 
 
 // 2. When we declare a variable on one line and initialize it later
