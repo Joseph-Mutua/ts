@@ -33,3 +33,5 @@
 ## Array vs Tuple annotations
 - Use typed Arrays any time you need to represent a collection of records with some a arbitrary sort order
 - A Tuple s an Array-like structure where each element represents some property of a record
+
+**Interfaces:** Creates a new type, describing the property names and values of an object.
