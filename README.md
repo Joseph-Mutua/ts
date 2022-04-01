@@ -22,4 +22,8 @@
   - Allow other engineers to understand the types in the codebase
   - **Type Annotations + Inference** apply to *variables*, *Functions*, *Objects*
     -  **Type Annotations:** Code added to tell TypeScript what type of value a variable will refer to
-    -  **Type Inference:** TS tries to figure out what type of value a variable refers to
+    -  **Type Inference:** TS tries to figure out what type of value a variable refers to. If declaration and initialization are on the same line, TS will figure out the type annotation automatically.
+
+## Annotations around Functions
+**Type Annotations for functions:** Code we add to tell TS what type of arguments a function will receive and what type of values it will return
+**Type inference for functions:** TS tries to figure out what type of value a function will return.
