@@ -35,3 +35,6 @@
 - A Tuple s an Array-like structure where each element represents some property of a record
 
 **Interfaces:** Creates a new type, describing the property names and values of an object.
+- General Strategy for reusaable code in TS
+  - Create functions that accept arguments that are typed with interfaces
+  - Objects/Classes can decide to 'implement' a given interface to work with a function
