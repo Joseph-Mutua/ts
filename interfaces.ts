@@ -38,7 +38,7 @@ const printCar = (vehicle: Vehicle): void => {
   );
 };
 
-printCar(oldCivic)
+// printCar(oldCivic)
 
 const myDrink = {
     color: "brown",
