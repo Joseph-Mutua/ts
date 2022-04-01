@@ -38,3 +38,8 @@
 - General Strategy for reusaable code in TS
   - Create functions that accept arguments that are typed with interfaces
   - Objects/Classes can decide to 'implement' a given interface to work with a function
+
+## Class Modifiers
+1. **Public:** This method canbe called anywhere, anytime
+2. **Private** This method can only be called by other methods in this class
+3. **Protected** This method can be called by other methods in this class, or by other methods in child classes. 
