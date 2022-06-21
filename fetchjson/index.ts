@@ -9,9 +9,11 @@ interface Todo {
 }
 
 axios.get(url).then((res) => {
-  const todo = res.data as Todo;
+  // const todo = res.data as Todo;
 
-  const id = todo.id
+const todo: Todo = res.data;
+
+  const id = todo.id  
   const title = todo.title
   const completed = todo.completed
 
