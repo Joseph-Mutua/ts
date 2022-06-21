@@ -4,8 +4,10 @@ const drink = {
   sugar: 40,
 };
 
-type Drink = [string, boolean, number];
+
 const pepsi: [string, boolean, number] = ["brown", true, 40];
+//Using a type alias as a substitute
+type Drink = [string, boolean, number];
 const fanta: Drink = ["orange", true, 55];
 
 const carSpecs: [number, number] = [431, 83];

@@ -32,11 +32,14 @@
   - **Type Annotations:** Code added to tell TypeScript what type of value a variable will refer to
   - **Type Inference:** TS tries to figure out what type of value a variable refers to. If declaration and initialization are on the same line, TS will figure out the type annotation automatically.
 
-## When To Use
+## When To Use:
 ### Annotations
-1. wehn we declare a variable on one line then initialize it later
+1. When we declare a variable on one line then initialize it later
 2. When we want a variable to have a type that can't be inferred
 3. When a function returns the "any" type and we need to clarify the value
+   
+### Inference
+Always!
    
 ## Annotations around Functions
 **Type Annotations for functions:** Code we add to tell TS what type of arguments a function will receive and what type of values it will return
@@ -49,11 +52,11 @@
 - A Tuple s an Array-like structure where each element represents some property of a record
 
 **Interfaces:** Creates a new type, describing the property names and values of an object.
-- General Strategy for reusaable code in TS
+- General Strategy for reusable code in TS
   - Create functions that accept arguments that are typed with interfaces
   - Objects/Classes can decide to 'implement' a given interface to work with a function
 
 ## Class Modifiers
-1. **Public:** This method canbe called anywhere, anytime
+1. **Public:** This method can be called anywhere, anytime
 2. **Private** This method can only be called by other methods in this class
 3. **Protected** This method can be called by other methods in this class, or by other methods in child classes. 

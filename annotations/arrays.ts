@@ -1,6 +1,7 @@
 const carMakers: string[] = ["ford", "toyota", "chevy"];
 const dates = [new Date(), new Date()];
 
+//Annotations for arrays within arrays
 const carsByMake: string[][] = [["f150"], ["corolla"], ["camaro"]];
 
 // Help with inference when extracting values

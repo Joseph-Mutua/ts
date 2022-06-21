@@ -10,7 +10,9 @@ const profile = {
   },
 };
 
-const { age }: { age: number; name: string } = profile;
+//Annotation for age variable in destructuring
+//@ts-ignore
+const { age, name }: { age: number; name: string } = profile;
 
 const {
   coords: { lat, long },
